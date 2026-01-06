@@ -13,6 +13,20 @@
     color: white;
     cursor: pointer;
 }
+.section-heading{
+    max-width: 850px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -83,4 +97,28 @@ nav .menu a{
     max-width: 590px;
     vertical-align: middle;
 
+}
+#about{
+    padding-top: 140px;
+
+}
+#about .about-container{
+    width: 51%;
+    max-width: 1200;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 140px 165px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info .info-card h4{
+    font-size: 20px;
 }
